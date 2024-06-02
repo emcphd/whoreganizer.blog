@@ -1,4 +1,17 @@
 baseURL = 'https://whoreganizer.blog'
 languageCode = 'en-us'
 title = "Whoreganizer"
-theme = 'ananke'
+theme = 'archie'
+
+[params]
+  mode='dark'
+
+[[params.social]]
+name = 'Twitter'
+icon = 'twitter'
+url = 'https://twitter.com/whoreganizer'
+
+[[menu.main]]
+name = 'All Posts'
+url = '/posts'
+weight = 1
