@@ -6,6 +6,7 @@ theme = 'archie'
 [params]
   mode='dark'
   favicon = "/favicon.ico"
+  subtitle = 'Check back soon ;)'
 
 [[params.social]]
 name = 'Twitter'
