@@ -7,10 +7,10 @@ theme = 'archie'
   mode='dark'
 
 [[params.assets]]
-favicon = "/icons8-umbrella-pixels-16.png"
-favicon16x16 = "/icons8-umbrella-pixels-16.png"
-favicon32x32 = "/icons8-umbrella-pixels-16.png"
-apple_touch_icon = "/icons8-umbrella-pixels-60.png"
+favicon = "/favicon.ico"
+favicon16x16 = "/favicon-16x16.png"
+favicon32x32 = "/favicon-32x32.png"
+apple_touch_icon = "/apple-touch-icon.png"
 
 [[params.social]]
 name = 'Twitter'
