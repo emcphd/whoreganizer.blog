@@ -12,7 +12,6 @@ favicon16x16 = "/icons8-umbrella-pixels-16.png"
 favicon32x32 = "/icons8-umbrella-pixels-16.png"
 apple_touch_icon = "/icons8-umbrella-pixels-60.png"
 
-
 [[params.social]]
 name = 'Twitter'
 icon = 'twitter'
