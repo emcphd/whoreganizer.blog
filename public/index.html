@@ -2,7 +2,9 @@
 <html>
 	<head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Whoreganizer | Home </title><link rel="icon" type="image/png" href=/favicon.ico /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<img src="/icons8-umbrella-pixels-96.png" alt="" aria-label="logo"
+			height="30"><title>Whoreganizer | Home </title><link rel="icon" type="image/png" href=/favicon.ico /><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta property="og:image" content=""/>
 	<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="Whoreganizer" />
@@ -59,7 +61,19 @@
 
 			</main>
 			<footer>
-  <div style="display:flex"><a class="soc" href="https://twitter.com/whoreganizer" rel="me" title="Twitter"><i data-feather="twitter"></i></a></div>
+  <div style="display:flex"><a class="soc" href="https://twitter.com/whoreganizer" rel="me" title="Twitter"><i data-feather="twitter"></i></a><form
+      action="https://buttondown.email/api/emails/embed-subscribe/whoreganizer"
+      method="post"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.email/whoreganizer', 'popupwindow')"
+      class="embeddable-buttondown-form"
+    >
+      <div>
+        <input type="email" name="email" id="bd-email" placeholder="you@example.com" />
+        <input type="submit" value="Subscribe" />
+      </div>
+    </form>
+  </div>
 </footer>
 <script>
   feather.replace()

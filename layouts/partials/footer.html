@@ -3,6 +3,18 @@
     {{- range $index, $key := .Site.Params.Social -}}
     <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>
     {{- end -}}
+    <form
+      action="https://buttondown.email/api/emails/embed-subscribe/whoreganizer"
+      method="post"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.email/whoreganizer', 'popupwindow')"
+      class="embeddable-buttondown-form"
+    >
+      <div>
+        <input type="email" name="email" id="bd-email" placeholder="you@example.com" />
+        <input type="submit" value="Subscribe" />
+      </div>
+    </form>
   </div>
 </footer>
 {{ if not .Site.IsServer }}
